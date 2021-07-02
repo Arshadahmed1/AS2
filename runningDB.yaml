@@ -1,5 +1,0 @@
-db_data:
-image: mysql
-volumes:
-- /var/lib/mysql
-entrypoint: /bin/true
