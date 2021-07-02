@@ -1,5 +1,0 @@
-FROM rails:onbuild
-MAINTAINER admin
-COPY docker/config/database.yml /usr/src/app/config
-COPY docker/config/sunspot.yml /usr/src/app/config
-CMD rake db:create db:migrate db:seed && rails server
